@@ -1,0 +1,292 @@
+body 
+ {
+    background-color: #EEEDE8;
+     font-family:"Poppins", sans-serif;
+        
+ }
+
+header{
+    max-width: 1120px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+header p {
+    margin: 0%;
+    font-weight: bold;
+    color:#3B6A3D ;
+    font-size: 20px;
+}
+
+header nav ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav a {
+    color:#3B6A3D ;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #FFC700 ;
+}
+
+.info{
+    display: grid;
+    max-width: 1120px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    gap: 160px;
+    margin-bottom: 64px;
+}
+
+section.info h1 {
+    margin: 0%;
+    color: #3F3E2E ;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 120%;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+section.info h2 {
+    margin: 0%;
+    color: rgb(27, 27, 26);
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+section.info h3 {
+    margin: 0%;
+    color: #484844;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.info img{
+    width: 475px;
+    height: 580px;
+}
+
+section.artisti{
+    max-width: 1120px;
+    margin: auto;
+}
+
+section.artisti h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+div.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 856px;
+    margin: auto;
+    gap: 32px;
+    margin-bottom: 64px;
+}
+    
+div.grid h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+div.grid img{
+    width: 264px;
+    height: 360px;
+    object-fit: cover;
+    border: 1px solid 
+    
+}
+
+.inaugurazione {
+    max-width: 1120px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+.inaugurazione h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.inaugurazione p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.testo h6{
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    color:#3F3E2E ;
+}
+
+.testo p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 150%;
+   margin-bottom: 64px;
+}
+ 
+div.imgmostra{
+    display: flex;
+    width: 464px;
+    height: 599px;
+    margin-top: 790px;
+}
+
+section.lab{
+    max-width: 1120px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+h6{
+    font-size: 64px;
+    font-weight: 900;
+    margin-top: 64px;
+    margin-bottom: 32px;
+    color:#3F3E2E ;  
+}
+
+section.guida{
+    max-width: 1120px;
+    margin: auto;
+    margin-top: 64px;
+}
+
+div.imgiug {
+    width: 928px;
+    height: 489px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+section.art {
+    max-width: 1120px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+section.nomi{
+    max-width: 1120px;
+    margin: 0;
+}
+section.nomi nav ul{
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    list-style: none;  
+}
+section.nomi a{
+text-decoration: none;
+ color: #3F3E2E; 
+}
+section.nomi nav a:hover{
+    color: #FFC700;
+}
+
+section.hattie{
+    max-width: 1120px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+section.adrian{
+    max-width: 1120px;
+    margin: auto;
+    margin-bottom: 64px;
+}
+
+footer{
+    background-color: #5B8272;
+    max-width: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+
+footer nav ul {
+    text-align: right;
+    padding: 16px 32px;
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    font-size: 16px;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a {
+    color:#EEEDE8 ;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+footer nav a:hover {
+    color: #FFC700 ;
+}
+
+.card a {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 600;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+div.gridartisti{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1120px;
+    margin: auto;
+    gap: 32px;
+    margin-bottom: 128px;
+}
+
+div.gridartisti img{
+    width: 352px;
+    height: 462px;
+    object-fit: cover;
+    border: 1px solid 
+    
+}
+
+
+
+@media (max-width: 600px) {
+
+    header{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    div.grid{
+        grid-template-columns: repeat( auto-fill, minmax(400px,1fr));
+    
+    .info h1{
+        font-size: 48px;
+    }}
+  }
